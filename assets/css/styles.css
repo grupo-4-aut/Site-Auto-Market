@@ -875,6 +875,11 @@ the website, in dark theme
     grid-template-columns: .6fr;
     justify-content: center;
   }
+
+  .about__img{
+    width: 250px;
+    height: 250px;
+  }
 }
 
 /* For medium devices */
@@ -950,6 +955,11 @@ the website, in dark theme
   .footer__subscribe{
     width: initial;
   }
+
+  .about__img{
+    width: 380px; 
+    height: 380px;
+  }
 }
 
 /* For large devices */
@@ -978,8 +988,8 @@ the website, in dark theme
   }
 
   .about__img{
-    width: 320px;
-    height: 500px;
+    width: 430px; 
+    height: 430px;
   }
 
   .steps__container{
@@ -1063,5 +1073,10 @@ the website, in dark theme
 
   .scrollup{
     right: 3rem;
+  }
+
+  .about__img{
+    width: 480px; 
+    height: 480px;
   }
 }
