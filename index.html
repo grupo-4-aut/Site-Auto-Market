@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Responsive plants website - Bedimcode</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#home" class="nav__logo">
+                    <img src="assets/img/favicon.png" style="width: 25px;"></img> Auto Market
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">Sobre Nós</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#products" class="nav__link">Nossos Serviços</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#product" class="nav__link">O Processo</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">Implemente Em Sua Loja</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="ri-menu-line"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <div class="home__container container grid">
+                    <img src="assets/img/home.png" alt="" class="home__img">
+
+                    <div class="home__data">
+                        <h1 class="home__title">
+                            A Nova Forma De Realizar Vendas Físicas Chegou, Conheça O Futuro Agora.
+                        </h1>
+                        <p class="home__description">
+                            Revolução do mercado de produtos físicos com um sistema automatizado de compras que visa mais lucratividade, feito totalmente com tecnologia de ponta.
+                        </p>
+                        <a href="#about" class="button button--flex">
+                            Saber Mais <i class="ri-arrow-right-down-line button__icon"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__social">
+                        <span class="home__social-follow">Consulte</span>
+
+                        <div class="home__social-links">
+                            <a href="https://contate.me/auto-market-ltda" target="_blank" class="home__social-link">
+                                <i class="ri-whatsapp-line"></i>
+                            </a>
+                            <a href="https://github.com/grupo-4-aut" target="_blank" class="home__social-link">
+                                <i class="ri-github-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section container" id="about">
+                <div class="about__container grid">
+                    <img src="assets/img/about.png" alt="" class="about__img">
+
+                    <div class="about__data">
+                        <h2 class="section__title about__title">
+                            Quem somos & Porque nos escolher
+                        </h2>
+
+                        <p class="about__description">  
+                            A Auto Market tem como propósito facilitar a vida de você, nosso cliente empreendedor, fazendo com que o seu consumidor faça a sua compra de qualquer lugar de forma rápida, eficiente e sem enfrentar filas.
+                        </p>
+
+                        <div class="about__details">
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                Sistema físico completo de compras automatizado.
+                            </p>
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                Processamento do pedido por aplicativo, separação dos produtos e entrega, tudo de forma automática.
+                            </p>
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                Entrega em sua loja física ou em delivery.
+                            </p>
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                Gerenciamento do ato da compra até a entrega dos produtos.
+                            </p>
+                        </div>
+
+                        <a href="#contact" class="button--link button--flex">
+                            Implemente Em Sua Loja <i class="ri-arrow-right-down-line button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== STEPS ====================-->
+            <section class="steps section container" id="products">
+                <div class="steps__bg">
+                    <h2 class="section__title-center steps__title">
+                        Deixe a sua preocupação com <br>seu negócio com a gente!
+                    </h2>
+
+                    <p class="product__description">
+                        Gerenciamos todo o processo da compra e entrega por meio do recebimento de comandos de seu cliente pelo aplicativo ou site, que nos indicarão os produtos selecionados por ele, para que nós os separamos em caixas a fim de que possa ser realizada a entrega ou retirada dos produtos sem que seu cliente perca a paciência em filas.
+                    </p>
+
+                    <div class="steps__container grid">
+                        <div class="steps__card">
+                            <div class="steps__card-number">01</div>
+                            <h3 class="steps__card-title">Automatização do Processo de Compra</h3>
+                            <p class="steps__card-description">
+                                Implementamos um sistema de esteiras que levarão os produtos escolhidos para o embalamento e entrega na loja física ou em delivery sem precisar de nenhum colaborador.
+                            </p>
+                        </div>
+
+                        <div class="steps__card">
+                            <div class="steps__card-number">02</div>
+                            <h3 class="steps__card-title">Site e aplicativo para que seus clientes consigam comprar</h3>
+                            <p class="steps__card-description">
+                                Criamos plataformas para que as pessoas consigam adquirir os produtos de você, nosso cliente, mais facilmente.
+                            </p>
+                        </div>
+
+                        <div class="steps__card">
+                            <div class="steps__card-number">03</div>
+                            <h3 class="steps__card-title">Gerenciamento do Processo</h3>
+                            <p class="steps__card-description">
+                                Gerimos o processo de métodos de pagamento, manutenção, operações e cuidados com o processo automatizado a ser implementado.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== PRODUCTS ====================-->
+            <section class="product section container" id="product">
+                <h2 class="section__title-center">
+                    Confira o Processo
+                </h2>
+
+                <p class="product__description">
+                    A nossa empresa é pioneira nesse segmento da automatização de todo o processo de compra do consumidor na sua loja. Isso significa que somos uma marca própria, de estrutura exclusiva e totalmente inovadora para o mercado atual, deixando o seu lucro e a satisfação do seu cliente em primeiro lugar.
+                </p>
+
+                <div class="product__container grid">
+                    <article class="product__card">
+                        <img src="assets/img/product2.jpg" alt="" class="product__img">
+
+                        <h3 class="product__title">Sistema de Tótens Físicos, Site e App para Compra</h3>
+                        <span class="product__price"></span>
+                    </article>
+
+                    <article class="product__card">
+                        <img src="assets/img/product1.png" alt="" class="product__img">
+
+                        <h3 class="product__title">Sistema de Separação e Embale de Produtos em Esteiras</h3>
+                    </article>
+
+                    <article class="product__card">
+                        <img src="assets/img/product3.png" alt="" class="product__img">
+
+                        <h3 class="product__title">Sistema de Entrega em sua Loja Física ou em Delivery</h3>
+                        <span class="product__price"></span>
+                    </article>
+                </div>
+                <div class="div" style="text-align: center;">
+                    <a href="#contact" class="button--link button--flex">
+                        Implemente Em Sua Loja <i class="ri-arrow-right-down-line button__icon"></i>
+                    </a>
+                </div>
+            </section>
+
+            <!--==================== BENEFÍCIOS ====================-->
+            <section class="steps section container" id="products">
+                <div class="steps__bg" style="margin-bottom: 150px;">
+                    <h2 class="section__title-center steps__title"">
+                        Benefícios da Implementação
+                    </h2>
+
+                    <p class="product__description">
+                        Seus benefícios se estendem desde ao dono do estabelecimento que adquirir o serviço de automação, até à sua clientela.
+                    </p>
+
+                    <div class="steps__container grid">
+                        <div class="steps__card">
+                            <div class="steps__card-number">01</div>
+                            <h3 class="steps__card-title">Não precisa mais manter todos os seus colaboradores, gerando mais lucro e até mesmo clientela por eficiência!</h3>
+                        </div>
+
+                        <div class="steps__card">
+                            <div class="steps__card-number">02</div>
+                            <h3 class="steps__card-title">Todo o gerenciamento e preocupação fica com a gente!</h3>
+                        </div>
+
+                        <div class="steps__card">
+                            <div class="steps__card-number">03</div>
+                            <h3 class="steps__card-title">Seus clientes nunca mais irão reclamar de espera em filas ou no atendimento, pois tudo agora é automatizado.</h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== QUESTIONS ====================-->
+            <section class="questions section" id="faqs">
+                <h2 class="section__title-center questions__title container">
+                    Perguntas Frequentes
+                </h2>
+
+                <div class="questions__container container grid">
+                    <div class="questions__group">
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    Precisarei de permanecer com colaboradores em minha loja?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Neste momento apenas seguranças e colaboradores de entrega, pois quem irá pegar os produtos e fazer todo o seu gerenciamento até a mão do seu cliente serão as máquinas.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    Como identifico se minha loja está preparada para essa implementação?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Como é nosso propósito, deixe toda a preocupação com a gente. Ao entrar em contato com um de nossos especialistas, iremos criar todo um cronograma de ações a serem realizadas para que algum ou todo o seu espaço físico seja totalmente preparado com nossos equipamentos e pré-requisitos.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    Posso ter uma parte de minha loja da forma convencional e outra de forma automatizada?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Com toda certeza. Caso você queira continuar atendendo da forma como está hoje está tudo bem, mas você também pode ter um espaço dentro de sua loja para aqueles clientes mais apressados e que não querem enfrentar filas e toda a demora de fazer o embale e pagamento.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="questions__group">
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    Como adquirir e implementar todo esse sistema em minha loja física?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Isso é muito simples. Primeiramente crie um chamado por meio do link abaixo para que um de nossos especialistas entrem em contato com você. No contato, nós faremos o seu cadastro e disponibilizaremos a página de consulta da sua loja, com as suas vendas, produtos, pagamentos, retirada e etc, além de combinarmos visitas técnicas para dar início à implementação da automatização em sua loja.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    Como essa automatização é mantida em minha loja?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Nós fornecemos todo esse gerenciamento, implementação e manutenção dos sistemas que te trarão diversos benefícios por meio de planos de franquia, ou seja, você adquire a implementação de todo o sistema e depois investe um plano por mês que varia conforme seus lucros. Ou seja: <br>Implementação Inicial → Valor depende do tamanho de sua implementação. <br>Mensalidade Variável → Valor Fixo + 0,3% do seu lucro mensal.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    Terei que comprar os materiais como tótens de compra, telas, e etc para a minha implementação?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Negativo, como disse, todas essas preocupações você deve deixar com a gente. Nós disponibilizamos todo o material necessário e requerido para que a sua automatização funcione perfeitamente e seja esteticamente bonita com sua arte. Por esse motivo, acreditamos que o nosso preço, que é o valor que você está investindo, é muito justo e condizente com a proposta, pois não chega nem aos pés do que você irá faturar com a nossa implementação. ;)
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== APLICATIVO ====================-->
+            <section class="about section container" id="about">
+                <div class="about__container grid">
+                    <img src="assets/img/App.png" alt="" class="about__img">
+
+                    <div class="about__data">
+                        <h2 class="section__title about__title">
+                            Nosso Aplicativo Teste para Android
+                        </h2>
+
+                        <p class="about__description">  
+                            Teste o nosso aplicativo de exemplo criado para realizar a compra, o pagamento e todo o funcionamento de um protótipo físico de Supermercado Automatizado Real.
+                        </p>
+
+                        <div class="about__details">
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                Cadastro e Login de Clientes.
+                            </p>
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                Escolha dos produtos a serem comprados.
+                            </p>
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                Comando do protótipo físico do Supermercado Automatizado.
+                            </p>
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                Sistema de pagamentos automatizado.
+                            </p>
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                Verificação do andamento do pedido em tempo real por meio do status da compra.
+                            </p>
+                        </div>
+
+                        <a href="https://contate.me/auto-market-ltda" class="button--link button--flex" target="_blank">
+                            Baixe o aplicativo agora <i class="ri-arrow-right-down-line button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== CONTACT ====================-->
+            <section class="contact section container" id="contact">                
+                <div class="contact__container grid">
+                    <div class="contact__box">
+                        <h2 class="section__title">
+                            Para implementar nosso serviço em sua loja, crie <br>seu chamado agora
+                        </h2>
+
+                        <div class="contact__data">
+                            <div class="contact__information">
+                                <h3 class="contact__subtitle">Ligue para a nossa Central de Atendimento</h3>
+                                <span class="contact__description">
+                                    <i class="ri-phone-line contact__icon"></i>
+                                    +999 888 777
+                                </span>
+                            </div>
+
+                            <div class="contact__information">
+                                <h3 class="contact__subtitle">Escreva um e-mail para o SAC</h3>
+                                <span class="contact__description">
+                                    <i class="ri-mail-line contact__icon"></i>
+                                    sac@automarket.com
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form action="" class="contact__form">
+                        <div class="contact__inputs">
+                            <div class="contact__content">
+                                <input type="text" placeholder=" " class="contact__input">
+                                <label for="" class="contact__label">Nome de sua Loja</label>
+                            </div>
+
+                            <div class="contact__content">
+                                <input type="email" placeholder=" " class="contact__input">
+                                <label for="" class="contact__label">E-mail</label>
+                            </div>
+
+                            <div class="contact__content contact__area">
+                                <textarea name="message" placeholder=" " class="contact__input"></textarea>                              
+                                <label for="" class="contact__label">Endereço e Informações Adicionais de sua Loja</label>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex">
+                            Implementar Agora
+                            <i class="ri-arrow-right-up-line button__icon"></i>
+                        </button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content">
+                    <a href="#" class="footer__logo">
+                        <img src="assets/img/favicon.png" style="width: 25px;"></img> Auto Market
+                    </a>
+
+                    <h3 class="footer__title">
+                        Assine a nossa newsletter <br>para ficar atualizado
+                    </h3>
+
+                    <div class="footer__subscribe">
+                        <input type="email" placeholder="Digite seu e-mail" class="footer__input">
+
+                        <button class="button button--flex footer__button">
+                            Assinar
+                            <i class="ri-arrow-right-up-line button__icon"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Nosso endereço</h3>
+
+                    <ul class="footer__data">
+                        <li class="footer__information">Ouro Preto, Minas Gerais, Brasil</li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Contate-nos</h3>
+
+                    <ul class="footer__data">
+                        <li class="footer__information">+999 888 777</li>
+                        <li class="footer__information">sac@automarket.com</li>
+                        
+                        <div class="footer__social">
+                            <a href="https://contate.me/auto-market-ltda" target="_blank" class="home__social-link">
+                                <i class="ri-whatsapp-line"></i>
+                            </a>
+                        </div>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">
+                        Nosso App para Android
+                    </h3>
+
+                    <div class="footer__cards">
+                        <a href="https://contate.me/auto-market-ltda" target="_blank" class="home__social-link">
+                            <i class="ri-external-link-line"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; Auto Market Ltda. Todos os direitos reservados.</p>
+        </footer>
+        
+        <!--=============== SCROLL UP ===============-->
+        <a href="#" class="scrollup" id="scroll-up"> 
+            <i class="ri-arrow-up-fill scrollup__icon"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
